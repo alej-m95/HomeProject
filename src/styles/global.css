@@ -1,0 +1,96 @@
+/* src/styles/global.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+  }
+  
+  .calendar {
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .calendar-body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .calendar-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .calendar-cell {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calendar-cell-header {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .calendar-match {
+    display: inline-block;
+    background-color: rgb(224, 234, 236);
+    width: 115px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px;
+  }
+  
+  .add-match-button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-match-button:hover {
+    background-color: #0056b3;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
